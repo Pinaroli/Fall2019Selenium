@@ -1,0 +1,31 @@
+GitHub Day:
+git it is a tool.VCS(Version Control System)
+git version 2.21.1 SCM(Sout=rce Code Managment)
+you can use git in intellij without even installing it.It's bc intelliJ has git too. But even we want to use git via a CLI(Command Line Interface) we need to install it first.
+MyProject:
+public class MyfIRSTtEST{
+ public void test1(){
+ go to google.com
+ get the text 
+ assert that title is equals to"Google"
+ }
+}
+once you decided that this is a first version of your project, you can commit changes. commit changes-> means take a snapshot of the project at some point .
+I would say git it's kind of time machine for your project.
+The main role of git is TO TRACK CHANGES.why tracking changes is so important?
+Bc, if something will go wrong we can find 
+
+version 2:
+public cl
+
+Git can show you the difference from version to version. When (date, time) what file, what line was added, modified or deleted. And the most important by whom!aLSO, WHY?
+How you can figure out why? There is something that calls "commit message".Every single commit must be followed by commit message.Whenever you commit, you must describe what you have changed in this version of code. How this version is different from previous. 
+In real work environment, many people can work together within the same project. But if project is on my computer, hot=w other people can access it?
+For this, we use github.Github -it's a storage for projects.Every collaborator (project contributor)has a copy of the project.Then,github has  a main copy.
+
+
+
+
+
+
+
