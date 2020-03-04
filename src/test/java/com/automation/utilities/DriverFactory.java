@@ -8,16 +8,22 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class DriverFactory {
 
-        public static WebDriver createADriver(String browserName){
-            if(browserName.equalsIgnoreCase("chrome")){
-                WebDriverManager.chromedriver().setup();
-                return new ChromeDriver();
-            }else if(browserName.equalsIgnoreCase("firefox")){
-                WebDriverManager.firefoxdriver().setup();
-                return new FirefoxDriver();
-            }else{
-                WebDriverManager.iedriver().setup();
-                return new InternetExplorerDriver();
-            }
-        }
-}
+       public static WebDriver createDriver(String browserName){
+           if(browserName.equalsIgnoreCase("chrome")){
+               WebDriverManager.chromedriver().setup();
+               return new ChromeDriver();
+           }else if(browserName.equalsIgnoreCase("firefox")){
+               WebDriverManager.firefoxdriver().setup();
+               return new FirefoxDriver();
+
+           }else if(browserName.equalsIgnoreCase("IE")){
+               WebDriverManager.iedriver().setup();
+               return new InternetExplorerDriver();
+
+           }
+           return null;
+
+           }
+
+       }
+
