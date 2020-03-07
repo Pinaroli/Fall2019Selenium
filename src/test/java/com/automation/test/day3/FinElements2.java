@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class FinElements2 {
     public static void main(String[] args) throws InterruptedException {
-        WebDriver driver= DriverFactory.createADriver("chrome");
+        WebDriver driver= DriverFactory.createDriver("chrome");
 
         driver.get("http://practice.cybertekschool.com/sign_up");
 

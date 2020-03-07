@@ -7,10 +7,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class DriverFactory {
-
+    /**
+     *    * This method return webdriver object based on browser type
+     *      * If you want to use chrome browser, just provide chrome as a parameter
+     *      * @param browserName
+     *      * @return webdriver object
+     *      */
        public static WebDriver createDriver(String browserName){
            if(browserName.equalsIgnoreCase("chrome")){
-               WebDriverManager.chromedriver().setup();
+               WebDriverManager.chromedriver().version("79.0").setup();
                return new ChromeDriver();
            }else if(browserName.equalsIgnoreCase("firefox")){
                WebDriverManager.firefoxdriver().setup();
